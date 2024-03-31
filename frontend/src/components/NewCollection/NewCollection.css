@@ -1,0 +1,51 @@
+
+:root{
+    --color-btn: #A52A2A;
+    --primary-text-color: #2F4F4F;
+    --secondary-text-color: #696969;
+    --border-btn:  1px solid  rgba(172, 172, 172, 0.3);
+    --btn-text-color: #000000;
+    --hr-color: rgb(152, 151, 151, 0.4);
+    --product-box-shadow: -7px 13px 13px -7px rgba(60, 59, 59, 0.4);
+}
+
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.new-collections h1{
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.new-collections hr{
+    width: 130px;
+    border-radius: 10px;
+    background: var(--hr-color);
+}
+
+
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 20px;
+    box-shadow: var(--product-box-shadow);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* the same as above but using flex display */
+/* .collections{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+} */

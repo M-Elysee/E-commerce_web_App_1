@@ -1,0 +1,88 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);  
+}
+
+.nav-log{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-log p{
+    color: rgb(18, 83, 5);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.nav-log img{
+    width: 80px;
+    height: auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* text-decoration: none; */
+    font-weight: 600;
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-login-cart button {
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font: 20px;
+    background: white;
+    cursor: pointer;
+    gap: 20px;
+    font-weight: 300;
+
+}
+.nav-login-cart button:hover{
+    color: white;
+    background: black;
+}
+.nav-login-cart button:active{
+    background-color: whitesmoke;
+}
+
+.nav-login-cart img {
+    width: 30px;
+    height: auto;
+}
+
+/* display chart count */
+.nav-cart-count {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: -40px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: red;
+    color: white;
+}

@@ -1,0 +1,119 @@
+.productdisplay{
+    display: flex;
+    margin: 0px 170px;
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 20px;
+}
+
+.productdeslay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.productdeslay-img-list img{
+    height: 170px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid rgb(140, 132, 132);
+    padding: 7px;
+}
+
+.productdisplay-main-img{
+    width: 350px;
+    height: 450px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(140, 132, 132);
+    padding: 7px;
+}
+
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 8px;
+    color: black;
+    font-size: 20px;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    margin: 20px 0px;
+    gap: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: brown;
+}
+
+.productdisplay-right-description{
+    text-wrap: wrap;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.productdisplay-right-size h1{
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* .productdisplay-right-size {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+} */
+
+/* .productdisplay-right-size div{
+    padding: 13px 19px;
+    background: whitesmoke;
+    border: 1px solid black;
+    cursor: pointer;
+} */
+
+/* .productdisplay-right-size-div div{
+    padding: 18px 24px;
+    background: whitesmoke;
+    border: 1px solid black;
+    cursor: pointer;
+} */
+
+.productdisplay-right-size-size{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.productdisplay-right-size-size div{
+    border: 1px solid black;
+    padding: 13px 19px;
+    background: whitesmoke;
+    cursor: pointer;
+    height: 15px;
+    width: 13px;
+}
+
+.productdisplay-right button{
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background: brown;
+    border: none;
+    cursor: pointer;
+}
